@@ -2,3 +2,5 @@
 ### Braden Fineberg, Brooke Behrbaum, Brianna Gallo
 
 The initial dataset can be found in ./rawData. I have also used the script 'clean data' to standardize columns, rows and names to use for the rest of the analysis. Finally, using the NLP script, i was successful in determining the type of rental from 75% of the data. After running a basic OLS regression with typed data, we are able to predict with higher accuracy what the interest level in each home is. 
+
+The file Brooke_Interaction_Terms explores adding interaction terms to the data and running linear regression to improve the model fit.  Interaction terms were added to combine specific related predictors, such as allowing pets in general by synthesizing allowing cats and allowing dogs.  By creating interaction terms, we hope to find an interaction term which allows us get stratification across interest level.  One interaction term we added, outdoor_score, achieved some stratification.  This term calculates an average score for the number of outdoor features a listing has.  We discovered that only high interest listings have all of these features.
