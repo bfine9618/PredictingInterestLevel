@@ -7,14 +7,18 @@ The initial dataset can be found in ./rawData. I have also used the script 'clea
 #### Cleaning Data
 We started by creating the "Cleaning Data". It takes in the raw data, drops unnecessary columns, cleans the description column, and outputs a cleaned data file. This allows all of our models to work off of the same data and keep our results consistent.
 
-In a final model, our cleaning function converted an HTML string into a simpel string and ran a basic NLP. In addition, our preprocessing involved generating a range of interaction terms and grouping the data in various ways to determine expectations for each unit. We believe that the interest level in a home can be turned into a simple equation: $$\text{Net Interest Level} = Reality-Expectation$$
+In a final model, our cleaning function converted an HTML string into a simpel string and ran a basic NLP. In addition, our preprocessing involved generating a range of interaction terms and grouping the data in various ways to determine expectations for each unit. We believe that the interest level in a home can be turned into a simple equation: 
+\begin{align*}
+\text{Net Interest Level} = Reality-Expectation
+\end{align*}
 
 The reality consits of the actual characteristics of the unit while expectation is for a unit's given asking price, what features do you expect. The reality of the unit also includes where it is located. Specifically, if a unit is located in a high interest building, the unit is likely high interest. The expectation created a clear separation in the data. 
 
-**INCLUDE IMAGE OF SEPARATION**
+![alt](https://github.com/bfine9618/ese305FinalProject/blob/master/interestLevel.png)
 
 
 #### Final Model
+
 
 
 #### Future Plans
