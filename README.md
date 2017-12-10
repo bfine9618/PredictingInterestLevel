@@ -38,7 +38,7 @@ In the file 'NLP', we use a basic NLP parser looking for key words, we are able 
 
 
 #### Interaction Terms
-The file Brooke_Interaction_Terms explores adding interaction terms to the data and running linear regression to improve the model fit.  Interaction terms were added to combine specific related predictors, such as allowing pets in general by synthesizing allowing cats and allowing dogs.  By creating interaction terms, we hope to find an interaction term which allows us get stratification across interest level.  One interaction term we added, outdoor_score, achieved some stratification.  This term calculates an average score for the number of outdoor features a listing has.  We discovered that only high interest listings have all of these features.
+The file interaction_Terms explores adding interaction terms to the data and running linear regression to improve the model fit.  Interaction terms were added to combine specific related predictors, such as allowing pets in general by synthesizing allowing cats and allowing dogs.  By creating interaction terms, we hope to find an interaction term which allows us get stratification across interest level.  One interaction term we added, outdoor_score, achieved some stratification.  This term calculates an average score for the number of outdoor features a listing has.  We discovered that only high interest listings have all of these features.
 
 
 #### Tree Exploration
